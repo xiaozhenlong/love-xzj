@@ -341,10 +341,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '贫弱！贫弱！';
-    if (score <= 99) return '不做人啦';
-    if (score <= 149) return '真的是嗨到不行';
-    if (score <= 199) return '您';
+    if (score <= 49) return '飞机哥给你加油！';
+    if (score <= 99) return '飞机哥觉得你可以';
+    if (score <= 149) return '飞机哥都崇拜你了';
+    if (score <= 199) return '无敌了！';
     return '人？';
 }
 
